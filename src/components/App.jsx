@@ -7,7 +7,7 @@ import entry from "./entry";
 function createCard (emojipedia) {
 
   return <Entry
-
+    key={emojipedia.id}
     name={emojipedia.name}
     emoji={emojipedia.emoji}
     meaning={emojipedia.meaning}
@@ -26,7 +26,7 @@ function App() {
       <h1>
         <span>emojipedia</span>
       </h1>
-     
+      <dl className="dictionary">
             {emojipedia.map(createCard)}
        
     {/* <Entry 
@@ -35,6 +35,7 @@ function App() {
     meaning={emojipedia[0].meaning}
     />
        */}
+      </dl> 
     </div>
   );
 }

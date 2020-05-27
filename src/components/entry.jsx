@@ -3,7 +3,7 @@ import React from "react"
 
 function entry(props) {
     return (
-        <dl className="dictionary">
+      
         <div className="term">
           <dt>
             <span className="emoji" role="img" >
@@ -13,7 +13,7 @@ function entry(props) {
           </dt>
              <dd>{props.meaning}</dd>
              </div>
-      </dl>
+      
     );
 }
 
