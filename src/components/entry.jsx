@@ -6,17 +6,15 @@ function entry(props) {
         <dl className="dictionary">
         <div className="term">
           <dt>
-            <span className="emoji" role="img" aria-label="Tense Biceps">
+            <span className="emoji" role="img" >
             {props.emoji}
             </span>
             <span>{props.name}</span>
           </dt>
-          <dd>
-          {props.meaning}
-          </dd>
-        </div>
-        </dl>
-    )
+             <dd>{props.meaning}</dd>
+             </div>
+      </dl>
+    );
 }
 
 export default entry;
