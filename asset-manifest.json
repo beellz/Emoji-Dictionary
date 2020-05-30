@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/Emoji-Dictionary/static/js/main.41254084.chunk.js",
+    "main.js.map": "/Emoji-Dictionary/static/js/main.41254084.chunk.js.map",
+    "runtime-main.js": "/Emoji-Dictionary/static/js/runtime-main.7e889104.js",
+    "runtime-main.js.map": "/Emoji-Dictionary/static/js/runtime-main.7e889104.js.map",
+    "static/js/2.f53d1ad4.chunk.js": "/Emoji-Dictionary/static/js/2.f53d1ad4.chunk.js",
+    "static/js/2.f53d1ad4.chunk.js.map": "/Emoji-Dictionary/static/js/2.f53d1ad4.chunk.js.map",
+    "index.html": "/Emoji-Dictionary/index.html",
+    "precache-manifest.f6194dd33b90cfe7afa8361dc36283c4.js": "/Emoji-Dictionary/precache-manifest.f6194dd33b90cfe7afa8361dc36283c4.js",
+    "service-worker.js": "/Emoji-Dictionary/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e889104.js",
+    "static/js/2.f53d1ad4.chunk.js",
+    "static/js/main.41254084.chunk.js"
+  ]
+}
